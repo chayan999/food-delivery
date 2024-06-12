@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav .logo {
+    /* margin-left: 100px; */
+}
+
+.menu-link {
+    margin-right: 160px;
+}
+
+.menu-link a {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.menu-search {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background: #fff;
+    box-shadow: -3px 4px 6px 1px #f1efef;
+    border-radius: 5px;
+}
+
+.search-icon {
+    display: flex;
+    padding-right: 133px;
+    text-align: center;
+}
+
+.search-icon img {
+    padding-right: 15px;
+}
+
+.search-icon div {
+    text-transform: capitalize;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    color: #000000;
+
+}
+
+.card-icon {
+    padding-left: 32px;
+    border-left: 2px solid #0000002e;
+}
