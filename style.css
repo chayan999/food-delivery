@@ -20,6 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .menu {
@@ -78,4 +79,45 @@
 .card-icon {
     padding-left: 32px;
     border-left: 2px solid #0000002e;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section .hero-left {
+    width: 35%;
+}
+
+.hero-section .hero-right {
+    width: 35%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns */
+    grid-auto-rows: minmax(100px, auto);
+    /* Dynamic row height */
+    grid-gap: 20px;
+    /* Gap between grid items */
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    /* Border for grid items */
+    padding: 10px;
+    /* Padding for grid items */
+}
+
+.grid-item img {
+    max-width: 100%;
+    /* Ensure images don't exceed container width */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Remove any spacing below images */
+    margin: 0 auto;
+    /* Center images horizontally */
 }
