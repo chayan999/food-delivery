@@ -84,6 +84,7 @@
 .hero-section {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 
 .hero-section .hero-left {
@@ -92,6 +93,107 @@
 
 .hero-section .hero-right {
     width: 35%;
+}
+
+.hero-section-bike {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    background: #F5DDC4;
+    padding: 7px 20px;
+    border-radius: 50px;
+    padding-right: 2px;
+    margin-bottom: 75px;
+}
+
+.hero-section-bike p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: left;
+    color: #F48E28;
+    text-transform: capitalize;
+}
+
+.hero-section-bike img {
+    height: 54px;
+    border-radius: 50px;
+    width: 54px;
+    padding-right: 5px;
+}
+
+.hero-section .hero-header {
+    Width: 678px;
+    margin-bottom: 60px;
+}
+
+.hero-section .hero-header h1 {
+    font-family: Montserrat;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+.hero-header h1:nth-child(2) {
+    color:
+        #F48E28;
+}
+
+.hero-header h1:last-child span {
+    color: #F48E28;
+}
+
+.hero-description {
+    width: 625px;
+    margin-bottom: 60px;
+}
+
+.hero-description P {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: left;
+
+}
+
+.hero-btn-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+
+.hero-btn-section a {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31.69px;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #ffffff;
+    background: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%);
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+
+.hero-btn-section img {
+    box-shadow: 1px 1px 9px 6px #07060614;
+    border-radius: 26px;
+    padding: 20px
+}
+
+.hero-btn-section p {
+    text-transform: capitalize;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31.69px;
+    text-align: left;
+
 }
 
 .grid-container {
@@ -105,19 +207,50 @@
 }
 
 .grid-item {
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     /* Border for grid items */
     padding: 10px;
     /* Padding for grid items */
 }
 
 .grid-item img {
-    max-width: 100%;
+    /* max-width: 100%; */
     /* Ensure images don't exceed container width */
-    height: auto;
+    /* height: auto; */
     /* Maintain aspect ratio */
     display: block;
     /* Remove any spacing below images */
     margin: 0 auto;
     /* Center images horizontally */
+    width: 215px;
+    height: 250px;
+
+
+}
+
+.grid-item h3 {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31.69px;
+    text-align: center;
+
+}
+
+.grid-item h4 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: center;
+}
+
+.grid-item p {
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: center;
+
 }
