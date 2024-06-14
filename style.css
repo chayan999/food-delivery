@@ -84,7 +84,7 @@
 .hero-section {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .hero-section .hero-left {
@@ -253,4 +253,57 @@
     line-height: 21.94px;
     text-align: center;
 
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .location>.time,
+.palce,
+.number {
+    width: 235px;
+} */
+
+.location img {
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.place img,
+.number img {
+    background-color: #F48E28;
+    padding: 6px;
+    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+}
+
+.place {
+    padding: 0px 75px;
+    border-right: 1px solid #B6B6B6;
+    border-left: 1px solid #B6B6B6;
+}
+
+.location h3 {
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.location p {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.85px;
+    text-align: center;
 }
