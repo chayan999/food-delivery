@@ -259,6 +259,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 50px;
+    box-shadow: -2px 0px 8px 2px #afa7a773;
+    margin-bottom: 150px;
+    border-radius: 20px;
+
 }
 
 /* .location>.time,
@@ -284,10 +289,20 @@
     height: 20px;
 }
 
+
+
 .place {
-    padding: 0px 75px;
-    border-right: 1px solid #B6B6B6;
-    border-left: 1px solid #B6B6B6;
+    padding-right: 75px;
+    padding-left: 75px;
+    border-right: 2px solid #b6b6b659;
+    border-left: 2px solid #b6b6b659;
+}
+
+.time,
+.place,
+.number {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .location h3 {
@@ -306,4 +321,118 @@
     font-weight: 400;
     line-height: 15.85px;
     text-align: center;
+}
+
+.product .product-intro p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: left;
+    color: #F48E28;
+    text-align: center;
+}
+
+.product .product-header h3 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.product-dish {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 2px 12px 3px #e1dfda;
+    margin-bottom: 20px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.card-img {
+    width: 100%;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.product-dish .dish-info-wrapper {
+    padding: 10px 15px 46px 15px;
+}
+
+.product .product-dish .dish-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product .product-dish .dish-info-wrapper .dish-name-add .dish-name h3 {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31.69px;
+    margin-bottom: 20px;
+}
+
+.product .product-dish .dish-info-wrapper .dish-name-add .dish-cart-btn a {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.85px;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #F48E28;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.product .product-dish .dish-info-wrapper .dish-reating-price-div .desh-reating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.product .product-dish .dish-info-wrapper .dish-reating-price-div .desh-reating p {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.85px;
+    color: #000000cd;
+}
+
+.product .product-dish .dish-info-wrapper .dish-reating-price-div .desh-price p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+}
+
+.product-grid-contener {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.more-product {
+    padding: 20px 0px;
+    background: #F48E28;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.more-product a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 20px;
 }
