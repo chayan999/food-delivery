@@ -323,6 +323,10 @@
     text-align: center;
 }
 
+.product {
+    margin-bottom: 115px;
+}
+
 .product .product-intro p {
     font-family: Montserrat;
     font-size: 18px;
@@ -435,4 +439,79 @@
     text-align: center;
     color: #FFFFFF;
     margin-right: 20px;
+}
+
+.service {
+    margin-bottom: 115px;
+}
+
+.service .frist-heading {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: center;
+    color: #F48E28;
+
+}
+
+.service-card {
+    /* width: 340px; */
+    padding: 90px 15px;
+    border: 1px solid #b6b6b6dc;
+    border-radius: 30px;
+    background: #FFFFFF;
+
+}
+
+.service-card:hover {
+    transition: all 0.5s;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 3px 20px 9px #e0dada99;
+
+}
+
+.service .second-heading {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.service-card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.service-card-img {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    background: #F5DDC4;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.service-card-img-name {
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31.69px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.servic-card-description {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: center;
+
 }
