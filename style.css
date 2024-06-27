@@ -80,7 +80,7 @@
 .hero-section {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 5.16vw;
 }
 
 .hero-section .hero-left {
@@ -371,6 +371,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.93vw;
+    align-items: center;
 }
 
 .product .product-dish .dish-info-wrapper .dish-reating-price-div .desh-reating p {
@@ -723,7 +724,7 @@
 
 /* responsive start */
 
-@media only screen and (min-width:400px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
     /* For mobile phones: */
     .container {
@@ -927,5 +928,182 @@
 
     .subcribe-info-btn input[type="text"] {
         font-size: 1.3vw;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-link {
+        margin-right: 0;
+        padding: 1.29vw 1.61vw;
+    }
+
+    .menu-link a {
+        font-size: 3.5vw;
+        padding: 0 6vw;
+    }
+
+    .menu-search {
+        width: 100%;
+        justify-content: space-between;
+        padding: 2vw 3vw;
+        margin-top: 6vw;
+        margin-bottom: 3vw;
+    }
+
+    .search-icon div {
+        display: contents;
+        font-size: 3.5vw;
+    }
+
+    .hero-section-bike {
+        display: none;
+    }
+
+    .hero-description {
+        width: 100%;
+    }
+
+    .hero-description P {
+        font-size: 3.5vw;
+        line-height: 4.5vw;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .hero-btn-section a {
+        font-size: 3.5vw;
+    }
+
+    .hero-btn-section img {
+        border-radius: 3.7vw;
+        padding: 3vw;
+        width: 4vw;
+    }
+
+    .hero-btn-section p {
+        font-size: 3.3vw;
+    }
+
+    .grid-item img {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .grid-item h3 {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+
+    .grid-item h4 {
+        font-size: 3.1vw;
+        line-height: 5vw;
+    }
+
+    .grid-item p {
+        font-size: 2.9vw;
+        line-height: 4vw;
+    }
+
+    .location {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location img {
+        width: 11vw;
+        height: 11vw;
+    }
+
+    .place img,
+    .number img {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        padding: 2vw;
+    }
+
+    .location h3 {
+        font-size: 3.16vw;
+        line-height: 6.41vw;
+    }
+
+    .location p {
+        font-size: 3vw;
+        line-height: 4.02vw;
+
+    }
+
+    .time,
+    .place,
+    .number {
+        padding: 4.61vw 7.29vw;
+    }
+
+    .place {
+        border-top: 2px solid #b6b6b659;
+        border-bottom: 2px solid #b6b6b659;
+        border-right: none;
+        border-left: none;
+    }
+
+    .product .product-intro p {
+        font-size: 4vw;
+        line-height: 4.41vw;
+    }
+
+    .product .product-header h3 {
+        font-size: 3.32vw;
+        line-height: 3.83vw;
+    }
+
+    .product-grid-contener {
+        display: grid;
+        /* grid-template: repeat(3, 1fr) / repeat(2, 1fr); */
+        grid-template-columns: 1fr;
+    }
+
+    .product .product-dish .dish-info-wrapper .dish-name-add .dish-name h3 {
+        font-size: 3.5vw;
+        line-height: 4.04vw;
+    }
+
+    .product .product-dish .dish-info-wrapper .dish-name-add .dish-cart-btn a {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+    .product .product-dish .dish-info-wrapper .dish-reating-price-div .desh-reating {
+        margin-bottom: 3vw;
+    }
+
+    .product .product-dish .dish-info-wrapper .dish-reating-price-div .desh-reating img {
+        width: 3.96vw;
+        height: 3.96vw;
+    }
+
+    .product .product-dish .dish-info-wrapper .dish-reating-price-div .desh-reating p {
+        font-size: 3.6vw;
+        margin-left: 3.96vw;
+    }
+
+    .product .product-dish .dish-info-wrapper .dish-reating-price-div .desh-price p {
+        font-size: 2.8vw;
+    }
+
+    .product .product-dish .dish-info-wrapper {
+        padding: 3.5vw 2.5vw;
+    }
+
+    .more-product {
+        width: 55%;
+    }
+
+    .more-product a {
+        font-size: 3.6vw;
     }
 }
