@@ -300,7 +300,7 @@
 }
 
 .product {
-    margin-bottom: 10.96vw;
+    margin-bottom: 4.96vw;
 }
 
 .product .product-intro p {
@@ -419,7 +419,7 @@
 }
 
 .service {
-    margin-bottom: 10.96vw;
+    margin-bottom: 4.96vw;
 }
 
 .frist-heading {
@@ -493,7 +493,7 @@
 }
 
 .testimonials-section {
-    margin-bottom: 10.96vw;
+    margin-bottom: 4.96vw;
 }
 
 .testimonials {
@@ -1159,9 +1159,7 @@
         margin-bottom: 6.22vw;
     }
 
-    .subcribe-info-btn button {
-        top: 2.5vw;
-    }
+
 
     .subcribe-info-btn button {
         top: 2.5vw;
@@ -1172,15 +1170,77 @@
         height: 36vw;
     }
 
+    .testimonials-left-img {
+        flex-direction: column;
+    }
+
+    .testimonials-left-img img {
+        width: 16vw;
+        height: 16vw;
+        margin: 0 auto;
+    }
+
+    .testimonials-left-review p {
+        font-size: 2vw;
+        line-height: 2.3vw;
+        text-align: center;
+    }
+
+    .right-arrow {
+        right: -3.26vw;
+        top: 26.22vw;
+        width: 6.52vw;
+        height: 6.52vw;
+    }
+
+    .left-arrow {
+        left: -3.26vw;
+        top: 26.22vw;
+        width: 6.52vw;
+        height: 6.52vw;
+    }
+
+    .testimonials-right-img img {
+        width: 33.75vw;
+        height: 54.22vw;
+        margin-left: 1vw;
+    }
+
+    .testimonials-left-img .name {
+        font-size: 2.9vw;
+        line-height: 2.41vw;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .testimonials-left-img .position {
+        font-size: 2vw;
+        line-height: 2.02vw;
+        text-align: center;
+        margin-top: 3px;
+    }
+
+    .subcribe-info p {
+        line-height: 2vw;
+    }
+
+    .subcribe-info-btn input[type="text"] {
+        font-size: 2vw;
+    }
+
+    .subcribe-info-btn button {
+        font-size: 2vw;
+        line-height: 1.5vw;
+        padding: 0.9vw 1.7vw;
+        top: 1.9vw;
+    }
+
     .footer-grid-container {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-        column-gap: 0.96vw;
     }
 
     .footer-logo {
-        width: 50%;
+        width: 80%;
     }
 
     .footer-img {
@@ -1188,13 +1248,37 @@
         height: 8vw;
     }
 
+    .footer-grid-container .footer-logo .foter-social-icon img {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+
     .opening {
         padding-top: 15px;
     }
 
     .footer-grid-container .footer-logo p {
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         line-height: 1.7vw;
     }
 
+    .footer-grid-container h2 {
+        font-size: 2.67vw;
+        line-height: 3.04vw;
+    }
+
+    .footer-grid-container .opening p {
+        font-size: 1.8vw;
+        line-height: 1.7vw;
+    }
+
+    .footer-grid-container .link a {
+        font-size: 1.8vw;
+        line-height: 1.7vw;
+    }
+
+    .footer-grid-container .contact p {
+        font-size: 1.8vw;
+        line-height: 1.7vw;
+    }
 }
