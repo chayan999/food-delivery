@@ -369,7 +369,7 @@
 
 .product .product-dish .dish-info-wrapper .dish-reating-price-div .desh-reating {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 1.93vw;
     align-items: center;
 }
@@ -1067,6 +1067,11 @@
         grid-template-columns: 1fr;
     }
 
+    .product-dish {
+        border-top-left-radius: 5.26vw;
+        border-top-right-radius: 6.26vw;
+    }
+
     .product .product-dish .dish-info-wrapper .dish-name-add .dish-name h3 {
         font-size: 3.5vw;
         line-height: 4.04vw;
@@ -1106,4 +1111,90 @@
     .more-product a {
         font-size: 3.6vw;
     }
+
+    .frist-heading {
+        font-size: 3.16vw;
+        line-height: 5.41vw;
+    }
+
+    .second-heading {
+        font-size: 3.32vw;
+        line-height: 3.83vw;
+    }
+
+    .service-card-grid {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2vw;
+        padding: 3vw 2vw;
+    }
+
+    .service-card {
+        padding: 5.81vw 2.96vw;
+    }
+
+    .service-card-img {
+        width: 5.22vw;
+        height: 6.22vw;
+        padding: 3.29vw;
+        border-radius: 7.22vw;
+    }
+
+    .service-card-img img {
+        width: 6vw;
+        height: 6vw;
+    }
+
+    .service-card-img-name h3 {
+        font-size: 3.5vw;
+        line-height: 3.04vw;
+
+    }
+
+    .servic-card-description {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+    .second-heading {
+        margin-bottom: 6.22vw;
+    }
+
+    .subcribe-info-btn button {
+        top: 2.5vw;
+    }
+
+    .subcribe-info-btn button {
+        top: 2.5vw;
+    }
+
+    .subcribe-img img {
+        width: 32vw;
+        height: 36vw;
+    }
+
+    .footer-grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        column-gap: 0.96vw;
+    }
+
+    .footer-logo {
+        width: 50%;
+    }
+
+    .footer-img {
+        width: 11vw;
+        height: 8vw;
+    }
+
+    .opening {
+        padding-top: 15px;
+    }
+
+    .footer-grid-container .footer-logo p {
+        font-size: 1.5vw;
+        line-height: 1.7vw;
+    }
+
 }
